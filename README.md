@@ -1,6 +1,6 @@
 # 简介
 提供Android缓存功能，包括对`SD卡`，`内存`、`Sharedpreference`以及同时存储`SD卡`和`内存`的双层缓存操作，缓存对象包括：`实现序列化的对象`，`Bitmap`以及`字符数组`。
-详细的代码说明[https://www.jianshu.com/p/daf785b6ae66)
+详细的代码说明[https://www.jianshu.com/p/f08cccd9a9e0)
 # 使用
 导入项目依赖
 
@@ -135,5 +135,5 @@ testInerface.getData("testKey",Bitmap.class).observeOn(AndroidSchedulers.mainThr
 
 # 架构设计
 说完对整个API的使用，再来详细看一下整个缓存的项目结构。
-![CacheUML.png](https://www.jianshu.com/p/daf785b6ae66)
-详细的代码说明[https://www.jianshu.com/p/daf785b6ae66)
+![CacheUML.png](https://www.jianshu.com/p/f08cccd9a9e0)
+详细的代码说明[https://www.jianshu.com/p/f08cccd9a9e0)
